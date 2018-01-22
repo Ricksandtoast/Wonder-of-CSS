@@ -1,0 +1,41 @@
+
+h1 {
+	color:blue;
+    font-size: 50px;
+    text-align: center;
+}
+p:first-of-type  {
+    color: red;
+}
+p:nth-of-type(2) {
+	color:blue;
+}
+p:nth-of-type(3) {
+	color:green;
+}
+p:nth-of-type(4) {
+	font-size: 20px;
+}
+p:nth-of-type(5) {
+	font-size: 10px;
+}
+p:nth-of-type(6) {
+	text-align:center;
+}
+p:nth-of-type(7) {
+	font-weight: bold; 
+}
+p:nth-of-type(9) {
+	color:orange;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.styledFont{
+	color:green;
+}
+#styledImage{
+	border:5px solid orange;
+	display:block;
+	margin:0 auto;
+}
